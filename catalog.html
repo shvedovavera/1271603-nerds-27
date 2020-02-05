@@ -8,8 +8,8 @@
     <header>
       <nav>
         <a href="index.html"> 
-        <img src="img\nerds_logo.svg" width="160" height="65" alt="Логотип">
-        </a h>
+        <img src="img/nerds_logo.svg" width="160" height="65" alt="Логотип">
+        </a>
         <ul>
           <li><a href="studio.html">Студия</a></li>
           <li><a href="clients.html">Клиенты</a></li>
@@ -23,34 +23,35 @@
     </header>
 
    <main>
-       <h1>Магазин готовых шаблонов</h1>
        <section>
-       <span>Отсортировать:</span>
-      <ul>
-        <li>По цене</li>
-        <li>По типу</li>
-        <li>По названию</li>
-      </ul>
+         <h1>Магазин готовых шаблонов</h1>
+       <span>Сортировать:</span>
+      <div>
+        <button type="button">По цене</button>
+        <button type="button">По типу</button>
+        <button type="button">По названию</button>
+        <button type="button"><img src="img/icon-down-dir.catalog.svg" width="11" height="10" alt=""></button>
+        <button type="button"><img src="img/icon-up-dir.catalog.svg" width="11" height="10" alt=""></button>
+      </div>
 
-      <form class="filter" method="get"
-      action="https://echo.htmlacademy.ru">
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
       <fieldset>
         <legend>Сетка:</legend>
         <ul>
           <li>
-            <input type="radio" name="adaptive-grid" value="adaptive" id="filter-adaptive" checked>
+            <input type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
             <label for="filter-adaptive">
               Адаптивная
             </label>
           </li>
           <li>
-            <input type="radio" name="fixed-grid" value="fixed" id="filter-fixed">
+            <input type="radio" name="grid" value="fixed" id="filter-fixed">
             <label for="filter-fixed">
               Фиксированная
             </label>
           </li>
           <li>
-            <input type="radio" name="elastic-group" value="elastic" id="filter-elastic">
+            <input type="radio" name="grid" value="elastic" id="filter-elastic">
             <label for="filter-elastic">
               Резиновая
             </label>
@@ -98,40 +99,48 @@
 
            <h2>Каталог</h2>
            <ul>
-            <li><a href="#"><img src="img\img-sedona_catalog.jpg" width="360" height="576" alt="Sedona"></a>
-                <span><img src="img\browser_catalog.svg" width="360" height="40" alt=" "></span>
+            <li><a href="#"><img src="img/img-sedona_catalog.jpg" width="360" height="576" alt="Sedona"></a>
+                <span><img src="img/browser_catalog.svg" width="360" height="40" alt=" "></span>
+                <div> <h3>Sedona</h3> <p>Информационный сайт <br>для туристов</p><button type="button">9 900 руб.</button></div>
             </li>
-            <li><a href="#"><img src="img\img_pink_catalog.jpg" width="360" height="576" alt="Pink"></a>
-                <span><img src="img\browser_catalog.svg" width="360" height="40" alt=" "></span>
+            <li><a href="#"><img src="img/img_pink_catalog.jpg" width="360" height="576" alt="Pink"></a>
+                <span><img src="img/browser_catalog.svg" width="360" height="40" alt=" "></span>
+                <div> <h3>Pink App</h3> <p>Продуктовый лендинг <br>приложения для iOS и Android</p><button type="button">9 900 руб.</button></div>
             </li>
-            <li><a href="#"><img src="img\img-barbershop_catalog.jpg" width="360" height="576" alt="Barbershop"></a>
-                <span><img src="img\browser_catalog.svg" width="360" height="40" alt=" "></span>
+            <li><a href="#"><img src="img/img-barbershop_catalog.jpg" width="360" height="576" alt="Barbershop"></a>
+                <span><img src="img/browser_catalog.svg" width="360" height="40" alt=" "></span>
+                <div> <h3>Barbershop</h3> <p>Сайт салона красоты. <br>Для мужчин, да.</p><button type="button">9 900 руб.</button></div>
             </li>
-            <li><a href="#"><img src="img\img-mishka_catalog.jpg" width="360" height="576" alt="Mishka"></a>
-                <span><img src="img\browser_catalog.svg" width="360" height="40" alt=" "></span>
+            <li><a href="#"><img src="img/img-mishka_catalog.jpg" width="360" height="576" alt="Mishka"></a>
+                <span><img src="img/browser_catalog.svg" width="360" height="40" alt=" "></span>
+                <div> <h3>Mishka</h3> <p>Интернет-магазин <br>вязаных игрушек</p><button type="button">9 900 руб.</button></div>
             </li>
-            <li><a href="#"><img src="img\img-aplus_catalog.jpg" width="360" height="576" alt="A_plus"></a>
-                <span><img src="img\browser_catalog.svg" width="360" height="40" alt=" "></span>
+            <li><a href="#"><img src="img/img-aplus_catalog.jpg" width="360" height="576" alt="A_plus"></a>
+                <span><img src="img/browser_catalog.svg" width="360" height="40" alt=" "></span>
+                <div> <h3>A Plus</h3> <p>Лендинг курсов повышения<br> квалификации</p><button type="button">9 900 руб.</button></div>
             </li>
-            <li><a href="#"><img src="img\img-kvast_catalog.jpg" width="360" height="576" alt="Kvast"></a>
-                <span><img src="img\browser_catalog.svg" width="360" height="40" alt=" "></span>
+            <li><a href="#"><img src="img/img-kvast_catalog.jpg" width="360" height="576" alt="Kvast"></a>
+                <span><img src="img/browser_catalog.svg" width="360" height="40" alt=" "></span>
+                <div> <h3>Кваст</h3> <p>Промо-сайт производителя <br>крафтового кваса</p><button type="button">9 900 руб.</button></div>
             </li>          
            </ul>
            <ol>
-          <li><a>1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
+             <!--Можно ли представить элементы этого списка тегами button?-->
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>Следующая</li> 
           </ol>
        </section>
     </main>
     <footer>
-      <div>
+      
         <ul>
           <li><a href="#">Вконтакте</a></li>
           <li><a href="#">Фейсбук</a></li>
           <li><a href="#">Инстаграм</a></li>
         </ul>
-      </div>
+      
       <div>
         <p>Давайте дружить, это выгодно!</p>
         <p>Скидка 10% для друзей из социальных сетей.</p>
@@ -139,10 +148,9 @@
     </footer>
 
     <section>
-      <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль.</p>
-      <!-- Здесь будет форма -->
-      <button type="button">Закрыть</button>
+      <h2>Напишите нам</h2>
+      <!-- Здесь форма -->
+      <button type="submit">Отправить</button>
     </section>
 
     </body>
