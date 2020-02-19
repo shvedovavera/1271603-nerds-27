@@ -40,27 +40,27 @@ body {
  .main-navigation {
   background-color: #eeeeee;
 }
-.nav-link li, 
-.nav-link-with-icon li{
+.site-navigation, 
+.site-navigation-with-icon {
   list-style: none;
 }
-.nav-link a, 
-.nav-link-with-icon a {
+.site-navigation a, 
+.site-navigation-with-icon a {
   color: #000000;
   font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
 }
-.nav-link a:hover, 
-.nav-link-with-icon a:hover {
+.site-navigation a:hover, 
+.site-navigation-with-icon a:hover {
   color: #fb565a;
 }
-.nav-link a:focus, 
-.nav-link-with-icon a:focus {
+.site-navigation a:focus, 
+.site-navigation-with-icon a:focus {
   opacity: 0.3;
 }
-.nav-link a:active, 
-.nav-link-with-icon a:active,
+.site-navigation a:active, 
+.site-navigation-with-icon a:active,
 .nav-item-current a {
   text-decoration: underline solid  #fb565a;
 }
@@ -116,33 +116,33 @@ body {
   text-transform: uppercase;
 }
 
-.feature-btn-red {
+.feature-btn-color-1 {
   background-color: #fb565a;
 }
-.feature-btn-green {
+.feature-btn-color-2 {
   background-color: #00ca74;
 }
-.feature-btn-yellow {
+.feature-btn-color-3 {
   background-color: #efc84a;
 }
-.feature-btn-red:hover {
+.feature-btn-color-1:hover {
   background-color: #e74246;
 }
-.feature-btn-green:hover {
+.feature-btn-color-2:hover {
   background-color: #00bc6c;
 }
-.feature-btn-yellow:hover {
+.feature-btn-color-3:hover {
   background-color: #eab534;
 }
-.feature-btn-red:focus {
+.feature-btn-color-1:focus {
   background-color: #d7373b;
   box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
-.feature-btn-green:focus {
+.feature-btn-color-2:focus {
   background-color: #00aa62;
   box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
-.feature-btn-yellow:focus {
+.feature-btn-color-3:focus {
   background-color: #e5a722;
   box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
@@ -242,14 +242,20 @@ body {
 .login-form input:hover {
   border: 2px solid #b4b9bb;
 }
-.login-form input:focus {
+.login-form input:valid {
   color:rgba(68, 68, 68, 1);
   border: 2px solid #000000;
 }
-.login-form input:focus:invalid {
+
+/*.login-form input:valid:not(:placeholder-shown):not(:focus) {
+  color:rgba(68, 68, 68, 1);
+  border: 2px solid #000000;
+}
+.login-form input:invalid:not(:placeholder-shown):not(:focus) {
   color: #e74246;
   border: 2px solid #e74246;
-}
+}*/
+
 .text-form textarea {
   font-size: 16px;
   line-height: 18px;
