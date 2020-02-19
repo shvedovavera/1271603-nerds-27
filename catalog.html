@@ -10,16 +10,16 @@
    <body>
       <header>
          <nav class="main-navigation">
-            <a href="index.html">
-            <img class="header-logo" src="img/nerds_logo.svg" width="160" height="65" alt="Логотип студии Нёрдс">
+            <a class="header-logo" href="index.html">
+            <img src="img/nerds_logo.svg" width="160" height="65" alt="Логотип студии Нёрдс">
             </a>
-            <ul class="nav-link">
+            <ul class="site-navigation">
                <li><a href="studio.html">Студия</a></li>
                <li><a href="clients.html">Клиенты</a></li>
                <li class="nav-item-current"><a>Магазин</a></li>
                <li><a href="contacts.html">Контакты</a></li>
             </ul>
-            <ul class="nav-link-with-icon">
+            <ul class="site-navigation-with-icon">
                <li><a href="#">Корзина</a></li>
             </ul>
          </nav>
@@ -48,17 +48,17 @@
                <fieldset>
                   <legend>Сетка:</legend>
                   <ul>
-                     <li>
-                        <label for="adaptive-grid">Адаптивная</label>
+                     <li></li>
                         <input class="filter-input" type="radio" name="grid" value="adaptive" id="adaptive-grid" checked>
+                        <label for="adaptive-grid">Адаптивная</label>
                      </li>
                      <li>
-                        <label for="fixed-grid">Фиксированная</label>
                         <input class="filter-input" type="radio" name="grid" value="fixed" id="fixed-grid" disabled>
+                        <label for="fixed-grid">Фиксированная</label>
                      </li>
                      <li>
-                        <label for="elastic-grid">Резиновая</label>
                         <input class="filter-input" type="radio" name="grid" value="elastic" id="elastic-grid">
+                        <label for="elastic-grid">Резиновая</label>
                      </li>
                   </ul>
                </fieldset>
@@ -66,24 +66,24 @@
                   <legend>Особенности:</legend>
                   <ul>
                      <li>
-                        <label for="features-slider">Слайдер</label>
                         <input class="filter-input" type="checkbox" name="slider" id="features-slider" checked>
+                        <label for="features-slider">Слайдер</label>
                      </li>
                      <li>
-                        <label for="features-benefits-block">Блок преимуществ</label>
                         <input class="filter-input" type="checkbox" name="benefits-block" id="features-benefits-block">
+                        <label for="features-benefits-block">Блок преимуществ</label>
                      </li>
                      <li>
-                        <label for="features-news">Новости</label>
                         <input class="filter-input" type="checkbox" name="news" id="features-news" checked>
+                        <label for="features-news">Новости</label>
                      </li>
                      <li>
-                        <label for="features-gallery">Галерея</label>
                         <input class="filter-input" type="checkbox" name="gallery" id="features-gallery">
+                        <label for="features-gallery">Галерея</label>
                      </li>
                      <li>
-                        <label for="features-basket">Корзина</label>
                         <input class="filter-input" type="checkbox" name="basket" id="features-basket" disabled>
+                        <label for="features-basket">Корзина</label>
                      </li>
                   </ul>
                </fieldset>
